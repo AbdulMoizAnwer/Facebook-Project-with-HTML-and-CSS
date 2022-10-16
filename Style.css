@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f0f2f5;
+}
+body img {
+    height: 6.625rem;
+    margin: -1.75rem;
+    margin-top: 18%;
+    margin-left: 13.5%;
+    
+}
+.h_tagline {
+    color: #1c1e21;
+    font-family: Helvetica, Arial, sans-serif;;
+    font-size: 1.75rem;
+    font-weight: normal;
+    line-height: 2rem;
+    width: 31.25rem;
+    text-rendering: optimizelegibility;
+    margin-top: 1%;
+    margin-left: 15.5%;
+}
+#set-form {
+    box-shadow: inset;
+    align-items: center;
+    width: 26.438rem;
+    background-color: #fff;
+    border: 0.031rem solid lightgray;
+    border-radius: 0.5rem;
+    margin-right: 14%;
+    margin-top: -17%;
+    padding-top: 0.938rem;
+    padding-left: 0.938rem;
+    padding-right: 0.938rem;
+    float: right;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 10%), 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    padding-bottom: 6.125rem;
+    margin-bottom: 20%;
+    box-sizing: content-box;
+    display: -webkit-inline-box;
+    position: relative;
+}
+.input-fields {
+    border: 0.031rem solid lightgray;
+    width: 88%;
+    margin: 0.375rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+    padding: 1.125rem;
+}
+.input-fields:focus {
+    background-color: #fff;
+    outline: none!important;
+    caret-color: #1b74e4;
+    border-color: #1b74e4;
+    box-shadow: 0 0 0 0.125rem #e7f3ff;
+}
+#log-in-btn {
+    background-color: #2b77f2;
+    width: 25.625rem;
+    margin: 0.5rem;
+    height: 3.625rem;
+    border: 0.031rem solid lightgray;
+    border-radius: 0.5rem;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    Line-height: 3rem;
+    box-sizing: content-box;
+}
+#log-in-btn a{
+    text-decoration: none;
+    color: white;
+}
+#log-in-btn:hover {
+    background-color: #005fda;
+    cursor: pointer;
+}
+#frgtpswd-link {
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.173rem;
+    color: #2b77f2;
+    margin-left: 9.25rem;
+}
+#frgtpswd-link:hover {
+    text-decoration: underline;
+}
+#horizontal-line{
+    border-bottom: 0.063rem solid #dadde1;
+    width: 96%;
+    margin-left: -99%;
+    margin-top: 18.75rem;
+}
+#create-new-ac-btn{
+    margin-top: 67.8%;
+    background-color: #42b72a;
+    margin-left: -19.125rem;
+    height: 3.25rem;
+    border: 0.031rem solid lightgray;
+    border-radius: 0.5rem;
+    color: #fbfdfc;
+    font-size: 1.188rem;
+    font-weight: bold;
+    box-sizing: content-box;
+    width: 13.75rem;
+    position: absolute;
+}
+#create-new-ac-btn:hover{
+    cursor: pointer;
+    background-color: #39aa22;
+}
+#detail-login {
+    color: #1c1e21;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    float: right;
+    margin-top: 13%;
+    margin-right: -27%;
+}
+#create-page-link{
+    text-decoration: none;
+    color: #1c1e21;
+    font-weight: bold;
+}
+#create-page-link:hover{
+    text-decoration: underline;
+}
+#page-footer{
+    margin-top: 20%;
+    background-color: white;
+    padding: 5.75rem;
+    color: #737373;
+    height: 20vh;
+    padding-top: 2rem;
+    padding-bottom: 3.25rem;
+}
+#footer-list-1{
+    margin-left: 11%;
+    margin-left: 12.5%;
+}
+.footer-list-one{
+    display: inline-block;
+    font-size: 0.75rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.lst-items{
+    font-size: 0.75rem;
+    font-family: helvetica;
+    text-decoration: none;
+}
+.lst-items:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#contentCurve{
+    border-bottom: 0.063rem solid #dddfe2;
+    font-size: 0.063rem;
+    height: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+#footer-list-2{
+    margin-left: 11%;
+    margin-right: 15%;
+    position: absolute;
+}
+.footer-list-two{
+    display: inline-block;
+    font-size: 0.813rem;
+}
+#copyright{
+    font-size: 0.688rem;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-bottom: 1.25rem;
+    background-color: white;
+    display: block;
+}
